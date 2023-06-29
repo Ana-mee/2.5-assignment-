@@ -1,0 +1,61 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #4C4C4C;
+    margin: 0;
+    padding: 20px 50px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.input .first,
+.input .second {
+    display: flex;
+    flex-direction: column;
+}
+
+.input label {
+    margin-bottom: 2px;
+}
+
+.input input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#one {
+    border-radius: 5px;
+}
+#two {
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 14px;
+    background-color: #17465A;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.buttons button:hover {
+    background-color: #17465a92;
+}
+
+p {
+    font-size: 18px;
+}
+
+p span {
+    font-weight: bold;
+}
